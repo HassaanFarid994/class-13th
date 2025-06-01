@@ -34,6 +34,30 @@ firstchar = firstchar.toUpperCase()
 otherchar = otherchar.toLowerCase()
 var city = firstchar + otherchar;
 console.log(country)
+
+
+
+var country = "pAkIStan"
+var firstchar = country.slice(0,1);
+// console.log(firstchar)
+firstchar = firstchar.toUpperCase()
+// console.log(firstchar)
+
+
+var otherchar =country.slice(1)
+otherchar = otherchar.toLowerCase()
+// console.log(otherchar)
+var city = firstchar + otherchar;
+console.log(city)
+
+
+// firstchar = firstchar.toUpperCase()
+// console.log(firstchar)
+// console.log(country)
+// alert(city)
+
+
+
 var arr = ['Pakistan','India','Turkey']
 for (var i =0; i<arr.length; i++) {
     if (arr[i] === country) {
