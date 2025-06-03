@@ -144,10 +144,6 @@
 // var round = Math.floor(num)
 // console.log(round);
 
-
-
-
-
 // Math.random()
 // console.log(round);
 
